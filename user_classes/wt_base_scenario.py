@@ -14,7 +14,7 @@ class PurchaseFlightTicket(SequentialTaskSet): # класс с задачами 
                 'sec-ch-ua': '"Chromium";v="142", "YaBrowser";v="25.12", "Not_A Brand";v="99", "Yowser";v="2.5"',
                 'sec-ch-ua-mobile': '?0'
             },
-            debug_stream=sys.stderr
+            # debug_stream=sys.stderr
         )
         # logger.info(f"Статус ответа:{r00_01_response.status_code}, Тело ответа: {r00_01_response.text}")
         # print(f"Статус ответа:{r00_01_response.status_code}, Тело ответа: {r00_01_response.text}")
